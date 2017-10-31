@@ -56,9 +56,11 @@ header {
 
 #first-section {
   width: 100%;
-  background-image: url("../assets/images/hero.gif");
+  height: 800px;
+  background: url("../assets/images/hero.gif");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  background-attachment: scroll;
   overflow: auto;
 }
 
