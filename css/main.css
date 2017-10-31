@@ -1,3 +1,81 @@
 /*
  * Estilos de tu proyecto
  */
+
+
+/*Seteando los archivos*/
+ *{
+   margin:0px;
+   padding:0px;
+   font-family: 'Montserrat', sans-serif;
+   box-sizing: border-box;
+   vertical-align:middle;
+ }
+ body{
+   width: 100%;
+ }
+/*CLASES REUTILIZABLES*/
+.remove-underline{
+  text-decoration: none;
+  color: inherit;
+}
+.to-upper-case {
+  text-transform: uppercase;
+}
+/*CLASES ESPECIFICAS*/
+
+header {
+  padding: 20px;
+  background:violet;
+  overflow:auto;
+}
+.logo-header{
+   position: relative;
+   left: 5%;
+   width:4%;
+
+}
+.box-header {
+   display:inline-block;
+   float: right;
+   position: relative;
+   right: 18%;
+   transform: translateY(-50%);
+}
+.box-header li {
+  display: inline;
+  list-style: none;
+  padding: 10px 15px;
+}
+.log-in-button {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 8px 15px;
+
+}
+
+#first-section {
+  width: 100%;
+  background-image: url("../assets/images/hero.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: auto;
+}
+
+.sign-up-box {
+  width: 40%;
+  padding: 30px 0px 30px 50px;
+  background-color: white;
+  float: right;
+}
+#first-section li {
+  list-style: none;
+  padding: 5px;
+}
+.sign-up-box li button {
+  background-color: rgb(255,0,191);
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+}
