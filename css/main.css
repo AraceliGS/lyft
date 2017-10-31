@@ -13,6 +13,8 @@
  }
  body{
    width: 100%;
+   /*background-image: url("../assets/images/hero.gif");
+   background-size: cover;*/
  }
 /*CLASES REUTILIZABLES*/
 .remove-underline{
@@ -26,14 +28,15 @@
 
 header {
   padding: 20px;
-  background:violet;
-  overflow:auto;
+  overflow: auto;
+  z-index: 2000;
+  color: rgb(255, 255, 255);
+  background:rgb(45,41,67);
 }
 .logo-header{
    position: relative;
    left: 5%;
    width:4%;
-
 }
 .box-header {
    display:inline-block;
@@ -53,20 +56,17 @@ header {
   padding: 8px 15px;
 
 }
-
 #first-section {
   width: 100%;
-  background-image: url("../assets/images/hero.gif");
-  background-repeat: no-repeat;
-  background-size: contain;
   overflow: auto;
 }
 
 .sign-up-box {
   width: 40%;
   padding: 30px 0px 30px 50px;
-  background-color: white;
+  background-color:white;
   float: right;
+
 }
 #first-section li {
   list-style: none;
@@ -78,4 +78,37 @@ header {
   border: none;
   border-radius: 8px;
   color: rgb(255, 255, 255);
+}
+
+/*Segunda sección*/
+
+#second-section {
+  background-color: rgb(66,32,114);
+  overflow: auto;
+}
+#second-section img {
+  margin-top: -40%;
+  width: 40%;
+  height: 30%;
+  float: right;
+}
+.container {
+  color:rgb(255, 255, 255);
+  width: 60%;
+  padding-top: 18%;
+  padding-left: 10%;
+}
+.container p {
+  font-size: 15px;
+}
+.small-box {
+  padding: 20px;
+}
+#delete-margin {
+  padding: 0;
+}
+.titles{
+  padding: 0px 0px 15px 0px;
+  font-size: 25px;
+  font-weight: 400;
 }
