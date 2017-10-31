@@ -58,6 +58,14 @@ header {
 }
 #first-section {
   width: 100%;
+<<<<<<< HEAD
+=======
+  height: 800px;
+  background: url("../assets/images/hero.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+>>>>>>> 5afbaf482f6b26e0b4a81e1539f2cbf2821d745c
   overflow: auto;
 }
 
